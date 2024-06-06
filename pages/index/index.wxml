@@ -1,0 +1,10 @@
+<!--index.wxml-->
+<navigation-bar title="Weixin" back="{{false}}" color="black" background="#FFF"></navigation-bar>
+<scroll-view class="scrollarea" scroll-y type="list">
+  <view class="container">
+    欢迎来到微信小程序
+  </view>
+  <view class="box">
+    hello word
+  </view>
+</scroll-view>
