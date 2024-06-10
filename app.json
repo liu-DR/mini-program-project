@@ -1,14 +1,19 @@
 {
+  "entryPagePath": "pages/index/index",
   "pages": [
     "pages/index/index",
     "pages/demo/demo"
   ],
   "window": {
+    "enablePullDownRefresh": true,
+    "backgroundColor": "#efefef",
+    "navigationBarTitleText": "功夫",
+    "navigationBarBackgroundColor": "#14c145",
     "navigationBarTextStyle": "black",
-    "navigationStyle": "custom"
+    "navigationStyle": "default",
+    "homeButton": true
   },
   "style": "v2",
-  "renderer": "skyline",
   "rendererOptions": {
     "skyline": {
       "defaultDisplayBlock": true,
